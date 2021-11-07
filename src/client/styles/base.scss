@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+section {
+    max-width: 800px;
+    margin: 50px auto;
+    height: 35vh;
+}
+main {
+    background-color: #173636;
+}
+
+h3{
+    color: #082424;
+    font-size: 20px;
+    
+}
+p{
+    
+    font-size: 1.2em;
+    color: #000;
+}
+ main h1{
+    font-size: 4em;
+    background-color: #ddf3f3;
+}
+div{
+    margin: 10px;
+    font-size: 1.5em;
+}
+
+
+

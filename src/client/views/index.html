@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Sentiment Analyzer</title>
+     
+    </head>
+
+    <body>
+
+   
+
+        <main>
+            <h1>ENTER URL TO AN ARTICLE.</h1>
+            <section>
+                <form class="" onsubmit="return Client.submit(event)">
+                    <input id="url" type="text" name="input" value="" placeholder="enter valid url">
+                    <button  >submit</button>
+                </form>
+            </section>
+
+            <section>
+                <h2>Results___________:</h2>
+                <div id="subj"></div>
+                <div id="conf"></div>
+                <div id="irony"></div>
+                <div id="text"></div>
+                <div id='polar'></div>
+                <div id="agree"></div>
+                
+               
+            </section>
+        </main>
+
+        
+        <script>
+         
+            if ('serviceWorker' in navigator) {
+               
+                window.addEventListener('load', () => {
+                    navigator.serviceWorker.register('/service-worker.js');
+                });
+            }
+        </script>
+        
+    </body>
+</html>
